@@ -1,0 +1,11 @@
+.toast-container {
+  max-width: 600px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 250px;
+}
+
+.toast-container .toast {
+  margin-bottom: 10px;
+}
