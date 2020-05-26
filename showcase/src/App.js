@@ -1,26 +1,16 @@
 import React, { useState } from "react";
 import { Button, Message } from "semantic-ui-react";
+import "./Toast.css";
 
-import Toast, { ToastContextProvider } from "./Toast";
 import Page from "./Page";
-let count = 1;
-function App() {
-  const [showToast, setShowToast] = useState(false);
-  //const [toast, setToast] = useState({});
 
-  const setToast = () => {
-    //toastService.success("Testing");
-  };
-
+const App = () => {
   return (
-    <ToastContextProvider>
-      <div className="App">
-        <header>Test</header>
-        <Message>Test</Message>
-        <Page />
-      </div>
-    </ToastContextProvider>
+    <div className="App">
+      <header>Test</header>
+      <Page />
+    </div>
   );
-}
+};
 
 export default App;
