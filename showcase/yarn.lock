@@ -8028,8 +8028,8 @@ semantic-ui-react@^0.88.2:
     shallowequal "^1.1.0"
 
 semantic-ui-toast@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/semantic-ui-toast/-/semantic-ui-toast-1.0.1.tgz#920525e588f5c83499c3d1acdfa4bf480d7acc04"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/semantic-ui-toast/-/semantic-ui-toast-1.0.3.tgz#09ba34dc568b80dd9f8998f78a32f4a4c32bf7f9"
 
 "semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.7.1"

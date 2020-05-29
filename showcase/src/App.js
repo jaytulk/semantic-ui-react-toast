@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Form } from "semantic-ui-react";
-import "semantic-ui-toast/dist/toast.min.css";
+import "semantic-ui-toast/toast.min.css";
 import "./App.css";
 
-import toastService from "semantic-ui-toast/dist/toast.min.js";
+import toastService from "semantic-ui-toast";
 
 const toastTypeOptions = [
   { key: "showToast", value: "showToast", text: "Default" },
