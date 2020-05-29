@@ -1,12 +1,8 @@
 {
   "name": "semantic-ui-toast",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Show toasts styled with Semantic UI CSS",
-  "main": "src/toast.js",
-  "files": [
-    "dist/toast.min.js",
-    "dist/toast.min.css"
-  ],
+  "main": "toast.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
